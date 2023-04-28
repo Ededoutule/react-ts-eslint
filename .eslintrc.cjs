@@ -33,6 +33,10 @@ module.exports = {
     "prettier"
   ],
   rules: {
+    'react/button-has-type': 0,
+    'import/no-absolute-path': 0,
+    "@typescript-eslint/no-shadow": "off",
+    'react/react-in-jsx-scope': 'off',
     'react-refresh/only-export-components': 'warn',
     // 不需要
     'space-before-function-paren': 0, // 函数定义时括号前面要不要有空格
@@ -119,7 +123,10 @@ module.exports = {
     }],
     curly: 1, // 必须使用 if(){} 中的{}
     // common js
-    'no-duplicate-imports': 1
+    'no-duplicate-imports': 1,
+    'flow-vars/define-flow-type': 0,
+    'flow-vars/use-flow-type': 0,
+    'import/extensions': 0
   },
 }
 

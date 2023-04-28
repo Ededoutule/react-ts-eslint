@@ -1,0 +1,6 @@
+# 忽略一些不需要 eslint 检测的目录和文件
+.eslintrc.js
+node_modules
+dist
+.DS_Store
+*.local
